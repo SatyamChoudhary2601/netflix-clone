@@ -62,7 +62,10 @@ function Row({ title, fetchUrl, isLargeRow }) {
         ))}
       </div>
       {/* container --> poster*/}
+      <div className="youtube__display">
+
       {trailerUrl && <YouTube videoId={trailerUrl} opts={option} />}
+      </div>
     </div>
   );
 }
